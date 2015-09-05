@@ -40,6 +40,14 @@ To set the value of a PIN, you write a command to `/dev/pi-blaster` in the form 
 ![Raspberry Pi 2 pinout](images/RP2_Pinout.png) <p><sub><em>Image made with <a href="http://fritzing.org/">Fritzing</a></em></sub></p>
 
 
+# Actually using to control
+
+- Start the application by typing `node index.js`
+
+- Go to the slider page (point your browser to the IP of your Raspberry - port 3000). You can use the command `sudo ip addr show` to see what your IP is. Add the `http://` prefix and the :3000 suffix. For instance, I can access my application using `http://192.168.1.15:3000` Please note that depending on your network configuration, your application is potentially accessible to anyone in the world...
+
+
+
 # Acknowledgements
 
 - https://github.com/Kylir/rgb-slider project had the code available for this.
