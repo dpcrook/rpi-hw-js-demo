@@ -117,6 +117,11 @@ npm install
 
 - https://github.com/Kylir/rgb-slider project had the code available for this.
 
+- https://github.com/sarfata/pi-blaster project is a library for generating PWM
+on the Raspberry Pi GPIOs
+  - there is a node wrapper for it: https://github.com/sarfata/pi-blaster.js
+
+
 # License
 
-MIT License: see LICENSE.txt
+MIT License: see LICENSE
