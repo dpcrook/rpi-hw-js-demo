@@ -83,7 +83,7 @@ https://github.com/sarfata/pi-blaster
 - install pre-reqs
 
 ```bash
-sudo apt-get install autoconf git-core
+sudo apt-get -y install autoconf git-core
 ```
 
 - get source code
@@ -118,6 +118,7 @@ sudo make install
 ### install `rgb-slider` node app
 
 ```bash
+cd
 git clone https://github.com/dpcrook/rgb-slider.git
 cd rgb-slider
 npm install
