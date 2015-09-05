@@ -45,6 +45,17 @@ EDIT:
 I have found a very temporary fix by installing rpi-update (https://github.com/Hexxeh/rpi-update) and downgrading to this firmware: Hexxeh/rpi-firmware@46d1795 (Linux 4.0.9)
 ```
 
+#### hint on running commands simultaneously in multiple SSH sessions
+
+```bash
+csshX pi@demo-rpi[3-10]
+```
+
+[csshX](https://github.com/brockgr/csshx) is a wonderful utility for this.  On OS X, it can be most eassily obtained using [Homebrew](http://brew.sh/):
+```brew install csshx```
+
+
+
 ## Install Node,  and more
 
 ### Install node.js
