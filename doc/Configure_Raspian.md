@@ -36,6 +36,15 @@ sudo rpi-update 46d1795
 sudo reboot
 ```
 
+#### why an older version
+
+https://github.com/sarfata/pi-blaster/issues/47
+
+```
+EDIT:
+I have found a very temporary fix by installing rpi-update (https://github.com/Hexxeh/rpi-update) and downgrading to this firmware: Hexxeh/rpi-firmware@46d1795 (Linux 4.0.9)
+```
+
 ## Install Node,  and more
 
 ### Install node.js
@@ -55,7 +64,7 @@ sudo dpkg -i node_latest_armhf.deb
 <!-- sudo apt-get install -y build-essential python-dev python-rpi.gpio nodejs -->
 <!-- ``` -->
 
-### Build `pi-blaster`
+### Build `pi-blaster` and install
 
 https://github.com/sarfata/pi-blaster
 
@@ -82,16 +91,25 @@ cd pi-blaster
 make
 ```
 
-- install
+- install (will start on reboot)
 
 ```bash
 sudo make install
 ```
 
-- run
+<!-- - run -->
 
-```
-sudo ./pi-blaster
+<!-- ``` -->
+<!-- sudo ./pi-blaster -->
+<!-- ``` -->
+
+
+### install `rgb-slider` node app
+
+```bash
+git clone https://github.com/dpcrook/rgb-slider.git
+cd rgb-slider
+npm install
 ```
 
 
