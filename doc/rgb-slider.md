@@ -37,7 +37,8 @@ To set the value of a PIN, you write a command to `/dev/pi-blaster` in the form 
           25             P1-22
 
 
-![Raspberry Pi 2 pinout](images/RP2_Pinout.png) <sub><em>Image made with <a href="http://fritzing.org/">Fritzing</a></em></sub>
+![Raspberry Pi 2 pinout](images/RP2_Pinout.png)
+<sub><em>Image made with <a href="http://fritzing.org/">Fritzing</a></em></sub>
 
 
 # Acknowledgements
