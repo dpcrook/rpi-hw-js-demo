@@ -38,3 +38,19 @@ To set the value of a PIN, you write a command to `/dev/pi-blaster` in the form 
 
 
 ![RPI2 Pinout](images/RP2_Pinout.png)
+
+
+
+# Acknowledgements
+
+- https://github.com/Kylir/rgb-slider project had the code available for this.
+
+- https://github.com/sarfata/pi-blaster project is a library for generating PWM
+on the Raspberry Pi GPIOs
+  - there is a node wrapper for it: https://github.com/sarfata/pi-blaster.js
+
+
+# License
+
+MIT License: see LICENSE
+
