@@ -40,7 +40,7 @@ To set the value of a PIN, you write a command to `/dev/pi-blaster` in the form 
 ![Raspberry Pi 2 pinout](images/RP2_Pinout.png) <p><sub><em>Image made with <a href="http://fritzing.org/">Fritzing</a></em></sub></p>
 
 
-# Actually using to control
+# Actually using to control RGB LED from browser
 
 - Start the application by typing `node index.js`
 

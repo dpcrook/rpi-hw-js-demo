@@ -3,6 +3,7 @@ A collection of documents and code for October 2015 NoCo JavaScript Meetup
 
  - [Slides](http://dpcrook.github.io/rpi-hw-js-demo/)
  - [Configuring the Pis](doc/Configure_Raspian.md)
+   - [RGB LED demo 1](doc/rgb-slider.md)
 
 ## Related repos
 
