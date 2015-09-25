@@ -1,0 +1,8 @@
+//  -*- javascript -*-
+{
+    "uid": "localweb_express",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "/home/pi/rpi-hw-js-demo/localweb"
+}
