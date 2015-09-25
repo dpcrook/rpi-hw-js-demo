@@ -8,6 +8,7 @@ if [ ! -z "${first_time}" ] ; then
 	sudo apt-get install -y nginx
 	sudo cp -v /etc/nginx/sites-available/default /etc/nginx/sites-available/default.original
 	sudo -i npm install forever -g        
+        npm install
 fi
 
 sudo cp -v ./localweb.nginx.conf /etc/nginx/sites-available/default
