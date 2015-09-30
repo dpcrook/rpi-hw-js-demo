@@ -20,7 +20,7 @@ A collection of documents and code for October 2015 NoCo JavaScript Meetup
 
 # Current status
 
-See you [Monday]([Meetup Event Page](http://www.meetup.com/NoCo-JavaScript-Meetup/events/224542835/)!
+See you [Monday]([Meetup Event Page](http://www.meetup.com/NoCo-JavaScript-Meetup/events/224542835/)
 
 ## early status
 
