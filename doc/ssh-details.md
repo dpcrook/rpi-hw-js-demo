@@ -1,11 +1,9 @@
 
 ## connecting to pis
 
-```
+```bash
 csshX pi@demo-rpi[3-10]
 ```
-
-
 
 ## ~/.ssh/config
 
