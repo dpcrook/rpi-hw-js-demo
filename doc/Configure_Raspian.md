@@ -45,6 +45,15 @@ EDIT:
 I have found a very temporary fix by installing rpi-update (https://github.com/Hexxeh/rpi-update) and downgrading to this firmware: Hexxeh/rpi-firmware@46d1795 (Linux 4.0.9)
 ```
 
+https://github.com/sarfata/pi-blaster/pull/49
+
+```
+EDIT 2: 30-Sep-2015
+
+This issue with the /dev mailbox on 4.1.x kernels has been fixed in the latest
+pi-blaster
+```
+
 #### hint on running commands simultaneously in multiple SSH sessions
 
 ```bash
