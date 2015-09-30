@@ -47,7 +47,7 @@
 					<font style="color:red">R</font>
 					<font style="color:green">G</font>
 					<font style="color:blue">B</font> LED</h3>
-				<p><a href="https://dpcrook.github.io/rpi-hw-js-demo/demo1.html">These Slides</a></p>
+				<p><a href="https://dpcrook.github.io/rpi-hw-js-demo/REG-LED-demo.html">These Slides</a></p>
 			</section>
 
 			<section>
@@ -57,63 +57,98 @@
 				</blockquote>
 			</section>
 
-
-			<section>
-				<h3>RGB LED</h3>
-				<p>
-					<ul>
-						<li>RGB:
-							<span style="color:red">Red</span>
-							<span style="color:green">Green</span>
-							<span style="color:blue">Blue</span>
-						</li>
-						<li>LED: Light Emitting Diode</li>
-					</ul>
-				</p>
-				<p>RGB LED picture here</p>
-			</section>
-
 			<section>
 				<h2>LED structure</h2>
-				<p>(schematic drawing)</p>
-				Anode: + / Cathode: -
+				<blockquote cite="https://en.wikipedia.org/wiki/Light-emitting_diode">
+					&ldquo;An LED [...] is a "p–n junction diode", which emits light when activated.&rdquo; ~ Wikipedia
+				</blockquote>
+
+				<p>Anode: + (positive, "Vcc")</p>
+				<p>
+					<img src="demo_notes/LED_symbol.png" /> </p>
+				<p>Cathode: - (minus, "GND")</p>
+			</section>
+
+
+
+			<section>
+				<h2>RGB LED</h2>
+				<ul>
+					<li>RGB:
+						<span style="color:red">Red</span>
+						<span style="color:green">Green</span>
+						<span style="color:blue">Blue</span>, three separate LEDs
+					</li>
+					<li>LED: Light Emitting Diode</li>
+				</ul>
+				</p>
+			</section>
+
+			<section data-background="#888888">
+				<section>
+					<h2>RGB LED (common anode)</h2>
+
+					<table>
+						<thead>
+							<tr>
+								<th>Lead</th>
+								<th>Label</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>(R)ed</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Anode</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>(G)reen</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>(B)lue</td>
+							</tr>
+						</tbody>
+					</table>
+					<img src="demo_notes/RGBLED_Pinout.png" />
+				</section>
+				<section>
+					<h3> What does "Common Anode" mean?</h3>
+					<img src="demo_notes/RGBLED_Pinout.png" />
+					<br />
+					<img src="demo_notes/RGBLED_schematic_common_anode.png" />
+				</section>
 			</section>
 
 			<section>
-				<h2>RGB LED (common anode)</h2>
-
-				<table>
-					<thead>
-						<tr>
-							<th>Lead</th>
-							<th>Label</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td>(R)ed</td>
-						</tr>
-						<tr>
-							<td>2</td>
-							<td>Anode</td>
-						</tr>
-						<tr>
-							<td>3</td>
-							<td>(G)reen</td>
-						</tr>
-						<tr>
-							<td>4</td>
-							<td>(B)lue</td>
-						</tr>
-					</tbody>
-				</table>
+				<section>
+					<h2>Wiring RGB LED</h2>
+					<img src="demo_notes/Pi_RGBLED_Common_Anode_schem.png" />
+				</section>
+				<section>
+					<h2>Header Pinout</h2>
+					<img src="demo_notes/WiringPi_Header_pinout.png" /><br />
+					<a href="http://pi.gadgetoid.com/pinout/wiringpi">Online Link</a>
+				</section>
 			</section>
 
 			<section>
-				<h2>Wiring RGB LED</h2>
+				<section>
+					<h2>Wiring RGB LED</h2>
+					<img src="demo_notes/Pi_RGBLED_Common_Anode_bb.png" />
+				</section>
+				<section>
+					<h2>Header Pinout</h2>
+					<img src="demo_notes/WiringPi_Header_pinout.png" /><br />
+					<a href="http://pi.gadgetoid.com/pinout/wiringpi">Online Link</a>
+				</section>
+			</section>
+			<!-- Example of nested vertical slides -->
 
-			</section <!-- Example of nested vertical slides -->
 			<!-- <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
 				<script type="text/template">
 					## Slide 1.1
