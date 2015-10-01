@@ -13,12 +13,13 @@ A collection of documents and code for October 2015 NoCo JavaScript Meetup
      - [x] [info](doc/rgb-slider.md)
      - [x] [code](https://github.com/dpcrook/rgb-slider)
    - [x] [demo, pt. 1](http://dpcrook.github.io/rpi-hw-js-demo/RGB-LED-demo.html)
+     - [ ] Demo webpage and sliders
      - [x] Background on LEDs
-     - [ ] Walkthrough page and slider once
-     - [ ] Describe key components of the code on server and client
      - [ ] wiring instructions
      - [ ] instructions on connecting via SSH and launching the node server
    - [ ] [demo, pt. 2](http://dpcrook.github.io/rpi-hw-js-demo/RGB-LED-demo2.html)
+     - [ ] Describe key components of the code on server and client
+     - [ ] ...
      - [ ] ideas for improvements
    
 ## Related repos
