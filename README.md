@@ -8,19 +8,19 @@ A collection of documents and code for October 2015 NoCo JavaScript Meetup
    - [x] Teaser slides
  
  - [x] [Introduction Slides](http://dpcrook.github.io/rpi-hw-js-demo/index.html)
- - [ ] RGB LED demo
+ - [x] RGB LED demo
    - [x] [Configuring the Pis](doc/Configure_Raspian.md) - @dpcrook already has done this part
      - [x] [info](doc/rgb-slider.md)
      - [x] [code](https://github.com/dpcrook/rgb-slider)
    - [x] [demo, pt. 1](http://dpcrook.github.io/rpi-hw-js-demo/RGB-LED-demo.html)
-     - [ ] Demo webpage and sliders
+     - [x] Demo webpage and sliders
      - [x] Background on LEDs
-     - [ ] wiring instructions
-     - [ ] instructions on connecting via SSH and launching the node server
-   - [ ] [demo, pt. 2](http://dpcrook.github.io/rpi-hw-js-demo/RGB-LED-demo2.html)
-     - [ ] Describe key components of the code on server and client
-     - [ ] ...
-     - [ ] ideas for improvements
+     - [x] wiring instructions
+     - [x] instructions on connecting via SSH and launching the node server
+   - [x] [demo, pt. 2](http://dpcrook.github.io/rpi-hw-js-demo/RGB-LED-demo2.html)
+     - [x] Describe key components of the code on server and client
+     - [x] Describe PWM and HSV color
+     - [x] Ideas for improvements
    
 ## Related repos
 
