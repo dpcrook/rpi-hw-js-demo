@@ -28,6 +28,8 @@ A collection of documents and code for October 2015 NoCo JavaScript Meetup
 
 # Current status
 
+![Not exactly](http://github.crookster.org/rpi-hw-js-demo/demo_notes/power-cables-frustrated-guy-clarkk.jpg)
+
 See you [Monday at the Meetup](http://www.meetup.com/NoCo-JavaScript-Meetup/events/224542835/)
 
 ## early status
