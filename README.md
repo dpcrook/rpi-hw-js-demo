@@ -17,7 +17,7 @@ A collection of documents and code for October 2015 NoCo JavaScript Meetup
      - [x] Background on LEDs
      - [x] wiring instructions
      - [x] instructions on connecting via SSH and launching the node server
-   - [x] [demo, pt. 2](http://dpcrook.github.io/rpi-hw-js-demo/RGB-LED-demo2.html)
+   - [x] demo, pt. 2
      - [x] Describe key components of the code on server and client
      - [x] Describe PWM and HSV color
      - [x] Ideas for improvements
