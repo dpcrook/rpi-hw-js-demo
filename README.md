@@ -6,7 +6,9 @@ A collection of documents and code for October 2015 NoCo JavaScript Meetup
 - [Slides](http://dpcrook.github.io/rpi-hw-js-demo/index.html)
   - [slides](http://dpcrook.github.io/rpi-hw-js-demo/RGB-LED-demo.html) for  [demo pt. 1](https://github.com/dpcrook/rpi-hw-js-demo/blob/gh-pages/demo_notes/demo1.md)
   - [demo pt. 2](https://github.com/dpcrook/rpi-hw-js-demo/blob/gh-pages/demo_notes/demo2.md)
-  - Code: [rgb-slider](https://github.com/dpcrook/rgb-slider), [webserver](https://github.com/dpcrook/rpi-hw-js-demo/tree/master/localweb)
+  - Code (see below for more on how Pi's were configured): 
+    - [rgb-slider](https://github.com/dpcrook/rgb-slider) - node.js app, runs on Pi
+    - [local webserver](https://github.com/dpcrook/rpi-hw-js-demo/tree/master/localweb) just-in-case
   
 ## outline
 
