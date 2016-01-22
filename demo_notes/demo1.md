@@ -25,7 +25,7 @@ cd ~/rgb-slider
 
 # launch the server
 node index.js
-# you can now connect to address vi raspi-demo Wi-fi, like http://192.168.8.101:3000
+# via raspi-demo Wi-fi, connect to address it outputs, like http://192.168.8.101:3000
 
 # (options) DETACH from screen session
 <Ctrl>-a d
