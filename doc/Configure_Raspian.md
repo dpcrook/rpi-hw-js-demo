@@ -9,7 +9,7 @@
   1. reboot
 
 - update packages list
-  
+
 ```bash
 sudo apt-get update
 sudo apt-get install dselect screen raspi-config
@@ -77,12 +77,12 @@ dpkg-deb --info node_latest_armhf.deb
 sudo dpkg -i node_latest_armhf.deb
 ```
 
-<!-- - Pi (version 2)  -->
+- Pi Model B 2 w/ wheezy
 
-<!-- ```bash -->
-<!-- curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash - -->
-<!-- sudo apt-get install -y build-essential python-dev python-rpi.gpio nodejs -->
-<!-- ``` -->
+```bash
+curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+sudo apt-get install -y build-essential python-dev python-rpi.gpio nodejs
+```
 
 ### Build `pi-blaster` and install
 
