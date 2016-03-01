@@ -1,20 +1,19 @@
 # ssh to pi
 
-`<###>` is number corresponding to your Pi's IP address.  Password for `pi` account is `raspberry`
-
 ```bash
 ssh pi@192.168.8.<###>
 cd rgb-slider
 screen -R
-<Space>
 ```
 
+ - `<###>` is number corresponding to your Pi's IP address.  
+ - Password for `pi` account: **`raspberry`**
 
 # Launch node.js server
 
-You are ssh-ed into Pi and running `screen` session. Now you can run a node.js server that controls the RGB LED.
+Now, run a *node.js* server that controls the RGB LED.
 
-The following steps assume you are in a screen session.
+*NOTE: The following steps assume you are in a **`screen`** session.*
 
 ```bash
 # create a new window
