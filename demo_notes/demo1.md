@@ -1,12 +1,36 @@
 # ssh to pi
- `<##>` below is the number 23-30 depending on the pi.  The password is `raspberry`
 
-```
-ssh pi@192.168.8.<##>
+`<###>` is number corresponding to your Pi's IP address.  Password for `pi` account is `raspberry`
+
+```bash
+ssh pi@192.168.8.<###>
 cd rgb-slider
 screen -R
 <Space>
 ```
+
+
+# Launch node.js server
+
+You are ssh-ed into Pi and running `screen` session. Now you can run a node.js server that controls the RGB LED.
+
+The following steps assume you are in a screen session.
+
+```bash
+# create a new window
+<Ctrl>-a c
+
+# navigate to node.js project directory if you are not there
+cd ~/rgb-slider
+
+# launch the server
+node index.js
+# via raspi-demo Wi-fi, connect to address it outputs, like http://192.168.8.101:3000
+
+# (options) DETACH from screen session
+<Ctrl>-a d
+```
+
 
 ### An aside on screen commands
 `screen` is a handy utility that will allow you to connect/re-connect to running shell sessions.  
@@ -37,26 +61,4 @@ You can also have multiple sessions connected to a single `screen` instance.  Yo
 
 ```
 screen -x
-```
-
-# Launch our node.js server
-Once you are ssh-ed into Pi and in a running `screen` session, you can run the node.js server that controls the RGB LED.
-
-```
-# assumes we are in a running screen session
-
-# create a new window
-<Ctrl>-a c
-
-# go to project directory if you are not there
-cd ~/rgb-slider
-
-# launch the server
-node index.js
-
-# it will output a web address and port, like http://192.168.8.25:3000
-# you can now connect to this website in your browser
-
-# (OPTIONAL) detach from screen session
-<Ctrl>-a d
 ```

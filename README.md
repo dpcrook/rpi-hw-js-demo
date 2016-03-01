@@ -14,6 +14,13 @@ npm install
 grunt serve
 ```
 
-## Using docker
+### Using docker
 
-TBD
+
+#### Vanilla docker on Mac OS X
+
+```
+docker pull danidemi/docker-reveal.js
+docker run -d -v $(pwd):/slides/ -p 8000:8000 "danidemi/docker-reveal.js:latest"
+open http://$(docker-machine ip default):8000
+```

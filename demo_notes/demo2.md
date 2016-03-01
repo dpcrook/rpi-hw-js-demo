@@ -1,15 +1,14 @@
 # server side JavaScript
 ## Inspect index.js
 
+Assumes we are in a running `screen` session
+
 ```
-# assumes we are in a running screen session
-
-# List windows, using the Command key plus double-quote
+# List windows, using the Command key (^A), then double-quote
 <Ctrl>-a "
+# select a free window, or create another one with '<Ctrl>-a c'
 
-# select a free window, or create another one with 'Ctrl>-a c'
-
-# go to project directory if you are not there
+# navigate to project directory if you are not there
 cd ~/rgb-slider
 
 # look at the server file
@@ -74,10 +73,12 @@ Since values between `0`-`255` are being sent from browser client, they are conv
 **NOTE**: the lack of value checking (among other missing checks) in the code is _appalling_!  I know!
 
 # Client side JavaScript
-Some of the salient details.
+
+Included are some of the details.
 
 ## public/auto-slider.html
-Create some elements in the document.  These will be used to hold and style the sliders.
+
+Creates some UI elements in the document.  These elements will be used to hold and style the sliders.
 
 ```html
 <div id="red"></div>
@@ -85,7 +86,7 @@ Create some elements in the document.  These will be used to hold and style the 
 <div id="blue"></div>
 ```
 
-Create some buttons to control the `auto-slider` routines:
+Also create some buttons to control the `auto-slider` routines:
 
 ```html
 <div id="clickbuttons">
