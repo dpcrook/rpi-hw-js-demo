@@ -1,7 +1,11 @@
 
 # short version
 
-SSH to your pi and start the server
+SSH to your pi and start a *node.js* web server that controls the LED.
+
+ - `<PI_NAME>` is name of Pi, e.g. `rpip5`
+ - Password for `pi` account: **`raspberry`**
+
 
 ```bash
 ssh pi@<PI_NAME>.local
