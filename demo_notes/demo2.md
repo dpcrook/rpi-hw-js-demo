@@ -1,7 +1,9 @@
 # server side JavaScript
+
 ## Inspect index.js
 
-Assumes we are in a running `screen` session
+Assumes `screen` session.
+To reconnect using an SSH connection, use command: `screen -R` 
 
 ```
 # List windows, using the Command key (^A), then double-quote
