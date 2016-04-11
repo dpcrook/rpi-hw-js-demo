@@ -44,9 +44,9 @@
 		<div class="slides">
 
 			<section>
-				<h2>Pi + JS</h2>
+				<h2>Pi + JavaScript</h2>
 				<p>
-					March 2, 2016<br />
+					April 12, 2016<br />
                                         <a href="https://github.com/dpcrook/rpi-hw-js-demo" target="_blank">https://github.com/dpcrook/rpi-hw-js-demo</a><br />
 				</p>
 				<h3>David Crook</h3>
@@ -59,9 +59,11 @@
 			</section>
 			<section>
 				<h2>Hardware</h2>
-				<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-					&ldquo;Those parts of the system that you can hit with a hammer are called hardware; those program instructions that you can only curse at are called software.&rdquo;
-				</blockquote>
+				<!-- <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations"> -->
+				<!-- 	&ldquo;Those parts of the system that you can hit with a hammer are called hardware; those program instructions that you can only curse at are called software.&rdquo; -->
+				<!-- </blockquote> -->
+                                The place where code runs<br />
+                                Connected to the physical world.
 			</section>
 
 			<section>
@@ -124,11 +126,12 @@
 				<h2>Pieces of Pi</h2>
 				<p>The Pi's in front of you are model B+ or model 2 B
 					<ul>
-						<li>Connected to 5W PSU and wired Ethernet</li>
-						<li>Running Raspbian (Debian Linux) from µSD card</li>
+						<li>Connected to 5 watt power supply</li>
+						<li>Connected to wired Ethernet</li>
+						<li>Running Raspbian OS (Debian Linux) on µSD card</li>
 						<li>40-pin expansion header provides many kinds of I/O ports</li>
 						<ul>
-							<li>We are going use some of these today!</li>
+							<li><em>We are going use some of these today!</em></li>
 						</ul>
 					</ul>
 			</section>
@@ -179,14 +182,14 @@
 			<section>
 				<h2>Why node.js</h2>
 				<p>
+                                  Node.js JavaScript server running on the Pi
 					<ul>
 						<li>single-threaded, event-driven programming model</li>
 						<ul>
-							<li>good for low-level I/O programming in many ways</li>
+							<li>makes it good for low-level programming in many ways</li>
+						        <li>resource usage is low</li>
+						        <li>fast, even on a tiny computer</li>
 						</ul>
-						<li>resource usage is low</li>
-						<li>fast, even on a tiny computer</li>
-						<li>It's Javascript!</li>
 					</ul>
 					<a href="https://nodejs.org/en/about/">
 						<img src="demo_notes/nodejs-dark.png" width="328" height="242" />
