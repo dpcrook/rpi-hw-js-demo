@@ -1,7 +1,7 @@
 
 # rpi-hw-js-demo
 
-A collection of documents and code for October 2015 NoCo JavaScript Meetup
+A collection of documents and code for Raspberry Pi RGB LED demonstration by @dpcrook.
 
 - [Presentation](http://dpcrook.github.io/rpi-hw-js-demo/index.html)
   - [Demo slides](http://dpcrook.github.io/rpi-hw-js-demo/RGB-LED-demo.html)
@@ -11,6 +11,9 @@ A collection of documents and code for October 2015 NoCo JavaScript Meetup
     - [rgb-slider](https://github.com/dpcrook/rgb-slider) - node.js app, runs on Pi
       - client html/JS in `public`
   
+  
+Originally created for October 2015 NoCo JavaScript Meetup demo.
+
 ## outline / previous work
 
  - [x] [Oct'15 Meetup Event Page](http://www.meetup.com/NoCo-JavaScript-Meetup/events/224542835/)
