@@ -5,7 +5,7 @@ Assumes you already have nodejs installed.
 
 
 ```
-git clone git@github.com:dpcrook/rpi-hw-js-demo.git
+git clone git@github.com:idcrook/rpi-hw-js-demo.git
 cd rpi-hw-js-demo
 cd localweb/
 vi ./runme.sh

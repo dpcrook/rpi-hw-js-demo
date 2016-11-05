@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dpcrook/rpi-hw-js-demo.git"
+    "url": "git+https://github.com/idcrook/rpi-hw-js-demo.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dpcrook/rpi-hw-js-demo/issues"
+    "url": "https://github.com/idcrook/rpi-hw-js-demo/issues"
   },
-  "homepage": "https://github.com/dpcrook/rpi-hw-js-demo#readme",
+  "homepage": "https://github.com/idcrook/rpi-hw-js-demo#readme",
   "dependencies": {
     "compression": "^1.5.2",
     "express": "^4.13.3"

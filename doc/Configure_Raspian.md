@@ -128,7 +128,7 @@ sudo make install
 
 ```bash
 cd
-git clone https://github.com/dpcrook/rgb-slider.git
+git clone https://github.com/idcrook/rgb-slider.git
 cd rgb-slider
 npm install
 ```
