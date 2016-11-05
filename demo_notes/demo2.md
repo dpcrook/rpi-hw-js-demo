@@ -22,7 +22,7 @@ less index.js
 ### what is going on in the server index.js?
 `index.js` is a Node.js app that creates a web server and can control I/O pins on the Raspberry Pi in response to web-issued commands.
 
-Code available on GitHub: [https://github.com/dpcrook/rgb-slider](https://github.com/dpcrook/rgb-slider)
+Code available on GitHub: [https://github.com/idcrook/rgb-slider](https://github.com/idcrook/rgb-slider)
 
 ```javascript
 var piblaster = require('pi-blaster.js');
